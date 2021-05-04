@@ -25,11 +25,11 @@
 	
 	<distributionManagement>
 		
-  	 <repository>
+  	 <releaserepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://13.233.138.166:8081/repository/Wallmart-dev-releases/</url>
-	    </repository>
+	    </releaserepository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
