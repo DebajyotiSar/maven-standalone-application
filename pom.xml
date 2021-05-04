@@ -22,9 +22,26 @@
 		<sonar.login>76d3f5567248f71b70070b671e7b005e7f321416</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
 
 	<dependencies>
-
+		
+	<distributionManagement>
+		
+  	 <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.233.138.166:8081/repository/Wallmart-dev-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.233.138.166:8081/repository/Wallmart-dev-snapshot/</url>
+	    </snapshotRepository>
+		
+	</distributionManagement>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
